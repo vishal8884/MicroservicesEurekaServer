@@ -11,7 +11,7 @@ public class UserController {
 	@GetMapping("/status/check")
 	public String status()
 	{
-		return "Working";
+		return "PhotoAppApi Users is Working";
 	}
 
 }
